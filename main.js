@@ -16,9 +16,19 @@ function LessThen200(products) {
 
 const filtered = products.filter(LessThen200);
 
-console.log(filtered);
+console.log(filtered); //
 
 // Oppgave 2.
+
+function prodName(products) {
+  return products.name;
+}
+
+const productName = products.map(prodName);
+
+console.log(productName); //[ "Smartphone", "Headphones", "Coffee Maker", "Blender", "Laptop", "T-shirt", "Sneakers" ]
+
+// Oppgave 3.
 
 /*
 Du får et objekt-array som representerer produkter i en nettbutikk, Alvas Magiske Marked. Alva er en innovativ gründer som selger alt fra elektronikk til klær og kjøkkenapparater. En dag møter hun en utfordring: hun trenger hjelp til å analysere produktlisten sin for å få bedre kontroll på lageret.
